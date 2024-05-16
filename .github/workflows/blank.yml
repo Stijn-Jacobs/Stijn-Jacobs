@@ -27,6 +27,7 @@ jobs:
           user: Stijn-Jacobs
           template: classic
           base: header, activity, community, repositories, metadata
+          base_indepth: yes
           config_timezone: Europe/Amsterdam
           repositories_affiliations: owner, collaborator, organization_member
           plugin_wakatime: yes
@@ -34,5 +35,5 @@ jobs:
           plugin_wakatime_days: 7
           plugin_wakatime_limit: 5
           plugin_wakatime_repositories_visibility: all
-          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
+          plugin_wakatime_sections: time, languages, languages-graphs, editors, os
           plugin_wakatime_user: Deflopper
