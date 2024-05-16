@@ -29,7 +29,7 @@ jobs:
           base: header, activity, community, repositories, metadata
           base_indepth: yes
           config_timezone: Europe/Amsterdam
-          repositories_affiliations: owner, collaborator, organization_member
+          repositories_affiliations: owner, collaborator
           plugin_wakatime: yes
           plugin_wakatime_token: ${{ secrets.WAKA_TOKEN }}
           plugin_wakatime_days: 7
